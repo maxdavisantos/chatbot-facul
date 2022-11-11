@@ -5,9 +5,13 @@ from chatterbot import ChatBot
 input = [
   'Olá',  'Olá, bem vindo ao central de agendamento de instalação de fibra ótica da claro.        Gostaria de agendar a instalação?',
   'Sim', 'Me informe o ceu CPF ou número de instalação' ,
-  '32320032',  'Olá Max, para qual data gostaria de agendar sua instalação?' ,
-  '20/11/2022',  'Para qual horário gostaria de agendar a instalação?',
-  '14:00',  'Ok. Agendamento concluído com sucesso'
+  '32320032',  'Olá Max, para qual data gostaria de agendar sua instalação?',
+  '20/11/2022',    'Me confirma o endereço de instalação?',
+  'Rua 123, são paulo', 'Para qual horário gostaria de agendar a instalação?',
+  '14:00',  'Ok. Agendamento concluído com sucesso para o dia 20/11/2022 às 14 horas.',
+  '10:00',  'Ok. Agendamento concluído com sucesso para o dia 20/11/2022 às 10 horas.',
+  '11:00',  'Ok. Agendamento concluído com sucesso para o dia 20/11/2022 às 11 horas.',
+  'Obrigado', 'Eu quem de agradeço!',
 ]
 
 bot = ChatBot('Bot Instalação Internet')
